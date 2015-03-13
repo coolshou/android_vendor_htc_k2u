@@ -21,211 +21,79 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
   vendor/htc/k2u/proprietary/etc/agps_rm:system/etc/agps_rm \
-  vendor/htc/k2u/proprietary/bin/grep:system/bin/grep \
-  vendor/htc/k2u/proprietary/bin/du:system/bin/du \
-  vendor/htc/k2u/proprietary/bin/wpscli_test_cmd:system/bin/wpscli_test_cmd \
-  vendor/htc/k2u/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
-  vendor/htc/k2u/proprietary/bin/wpa_cli:system/bin/wpa_cli \
-  vendor/htc/k2u/proprietary/bin/cp:system/bin/cp \
-  vendor/htc/k2u/proprietary/bin/qb_offmode_alarm:system/bin/qb_offmode_alarm \
-  vendor/htc/k2u/proprietary/bin/wipe:system/bin/wipe \
-  vendor/htc/k2u/proprietary/bin/watchprops:system/bin/watchprops \
-  vendor/htc/k2u/proprietary/bin/vold:system/bin/vold \
-  vendor/htc/k2u/proprietary/bin/vmstat:system/bin/vmstat \
-  vendor/htc/k2u/proprietary/bin/zchgd:system/bin/zchgd \
-  vendor/htc/k2u/proprietary/bin/vdc:system/bin/vdc \
-  vendor/htc/k2u/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
-  vendor/htc/k2u/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-  vendor/htc/k2u/proprietary/bin/usbhub:system/bin/usbhub \
-  vendor/htc/k2u/proprietary/bin/uptime:system/bin/uptime \
-  vendor/htc/k2u/proprietary/bin/umount:system/bin/umount \
-  vendor/htc/k2u/proprietary/bin/uiautomator:system/bin/uiautomator \
-  vendor/htc/k2u/proprietary/bin/udhcpd:system/bin/udhcpd \
-  vendor/htc/k2u/proprietary/bin/tune2fs:system/bin/tune2fs \
-  vendor/htc/k2u/proprietary/bin/touch:system/bin/touch \
-  vendor/htc/k2u/proprietary/bin/top:system/bin/top \
-  vendor/htc/k2u/proprietary/bin/toolbox:system/bin/toolbox \
-  vendor/htc/k2u/proprietary/bin/thermald:system/bin/thermald \
-  vendor/htc/k2u/proprietary/bin/system_server:system/bin/system_server \
-  vendor/htc/k2u/proprietary/bin/sync:system/bin/sync \
-  vendor/htc/k2u/proprietary/bin/svc:system/bin/svc \
-  vendor/htc/k2u/proprietary/bin/surfaceflinger:system/bin/surfaceflinger \
-  vendor/htc/k2u/proprietary/bin/stop:system/bin/stop \
-  vendor/htc/k2u/proprietary/bin/start:system/bin/start \
-  vendor/htc/k2u/proprietary/bin/smd:system/bin/smd \
-  vendor/htc/k2u/proprietary/bin/sleep:system/bin/sleep \
-  vendor/htc/k2u/proprietary/bin/shutdown:system/bin/shutdown \
-  vendor/htc/k2u/proprietary/bin/sh:system/bin/sh \
-  vendor/htc/k2u/proprietary/bin/setprop:system/bin/setprop \
-  vendor/htc/k2u/proprietary/bin/setconsole:system/bin/setconsole \
-  vendor/htc/k2u/proprietary/bin/servicemanager:system/bin/servicemanager \
-  vendor/htc/k2u/proprietary/bin/service:system/bin/service \
-  vendor/htc/k2u/proprietary/bin/sensorservice:system/bin/sensorservice \
-  vendor/htc/k2u/proprietary/bin/sendevent:system/bin/sendevent \
-  vendor/htc/k2u/proprietary/bin/sdptool:system/bin/sdptool \
-  vendor/htc/k2u/proprietary/bin/sdcard:system/bin/sdcard \
-  vendor/htc/k2u/proprietary/bin/screenshot:system/bin/screenshot \
-  vendor/htc/k2u/proprietary/bin/screencap:system/bin/screencap \
-  vendor/htc/k2u/proprietary/bin/schedtop:system/bin/schedtop \
-  vendor/htc/k2u/proprietary/bin/schedtest:system/bin/schedtest \
-  vendor/htc/k2u/proprietary/bin/run-as:system/bin/run-as \
-  vendor/htc/k2u/proprietary/bin/sound:system/bin/sound \
-  vendor/htc/k2u/proprietary/bin/gdbserver:system/bin/gdbserver \
-  vendor/htc/k2u/proprietary/bin/route:system/bin/route \
-  vendor/htc/k2u/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-  vendor/htc/k2u/proprietary/bin/rmmod:system/bin/rmmod \
-  vendor/htc/k2u/proprietary/bin/rmdir:system/bin/rmdir \
-  vendor/htc/k2u/proprietary/bin/rm:system/bin/rm \
-  vendor/htc/k2u/proprietary/bin/rild:system/bin/rild \
-  vendor/htc/k2u/proprietary/bin/requestsync:system/bin/requestsync \
-  vendor/htc/k2u/proprietary/bin/renice:system/bin/renice \
-  vendor/htc/k2u/proprietary/bin/reboot:system/bin/reboot \
-  vendor/htc/k2u/proprietary/bin/radvd:system/bin/radvd \
-  vendor/htc/k2u/proprietary/bin/radish:system/bin/radish \
-  vendor/htc/k2u/proprietary/bin/racoon:system/bin/racoon \
-  vendor/htc/k2u/proprietary/bin/qmuxd:system/bin/qmuxd \
-  vendor/htc/k2u/proprietary/bin/qmiproxy:system/bin/qmiproxy \
-  vendor/htc/k2u/proprietary/bin/ps:system/bin/ps \
-  vendor/htc/k2u/proprietary/bin/printenv:system/bin/printenv \
-  vendor/htc/k2u/proprietary/bin/pppd:system/bin/pppd \
-  vendor/htc/k2u/proprietary/bin/port-bridge:system/bin/port-bridge \
-  vendor/htc/k2u/proprietary/bin/pnpmgr:system/bin/pnpmgr \
-  vendor/htc/k2u/proprietary/bin/pm:system/bin/pm \
-  vendor/htc/k2u/proprietary/bin/ping:system/bin/ping \
-  vendor/htc/k2u/proprietary/bin/pand:system/bin/pand \
-  vendor/htc/k2u/proprietary/bin/notify:system/bin/notify \
-  vendor/htc/k2u/proprietary/bin/nl_listener:system/bin/nl_listener \
-  vendor/htc/k2u/proprietary/bin/newfs_msdos:system/bin/newfs_msdos \
-  vendor/htc/k2u/proprietary/bin/netstat:system/bin/netstat \
-  vendor/htc/k2u/proprietary/bin/netsharing:system/bin/netsharing \
-  vendor/htc/k2u/proprietary/bin/netmgrd:system/bin/netmgrd \
-  vendor/htc/k2u/proprietary/bin/netd:system/bin/netd \
-  vendor/htc/k2u/proprietary/bin/netcfg:system/bin/netcfg \
-  vendor/htc/k2u/proprietary/bin/ndc:system/bin/ndc \
-  vendor/htc/k2u/proprietary/bin/nandread:system/bin/nandread \
-  vendor/htc/k2u/proprietary/bin/mv:system/bin/mv \
-  vendor/htc/k2u/proprietary/bin/mtpd:system/bin/mtpd \
-  vendor/htc/k2u/proprietary/bin/mpdecision:system/bin/mpdecision \
-  vendor/htc/k2u/proprietary/bin/mount:system/bin/mount \
-  vendor/htc/k2u/proprietary/bin/monkey:system/bin/monkey \
-  vendor/htc/k2u/proprietary/bin/mm-video-encdrv-test:system/bin/mm-video-encdrv-test \
-  vendor/htc/k2u/proprietary/bin/mm-video-driver-test:system/bin/mm-video-driver-test \
-  vendor/htc/k2u/proprietary/bin/mm-venc-omx-test720p:system/bin/mm-venc-omx-test720p \
-  vendor/htc/k2u/proprietary/bin/mm-vdec-omx-test:system/bin/mm-vdec-omx-test \
-  vendor/htc/k2u/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-  vendor/htc/k2u/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
-  vendor/htc/k2u/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-  vendor/htc/k2u/proprietary/bin/mm-audio-alsa-test:system/bin/mm-audio-alsa-test \
-  vendor/htc/k2u/proprietary/bin/mksh:system/bin/mksh \
-  vendor/htc/k2u/proprietary/bin/mke2fs:system/bin/mke2fs \
-  vendor/htc/k2u/proprietary/bin/mkdir:system/bin/mkdir \
-  vendor/htc/k2u/proprietary/bin/mediaserver:system/bin/mediaserver \
-  vendor/htc/k2u/proprietary/bin/mdnsd:system/bin/mdnsd \
-  vendor/htc/k2u/proprietary/bin/md5:system/bin/md5 \
-  vendor/htc/k2u/proprietary/bin/make_ext4fs:system/bin/make_ext4fs \
-  vendor/htc/k2u/proprietary/bin/lsof:system/bin/lsof \
-  vendor/htc/k2u/proprietary/bin/lsmod:system/bin/lsmod \
-  vendor/htc/k2u/proprietary/bin/lsc_camera:system/bin/lsc_camera \
-  vendor/htc/k2u/proprietary/bin/ls:system/bin/ls \
-  vendor/htc/k2u/proprietary/bin/logwrapper:system/bin/logwrapper \
-  vendor/htc/k2u/proprietary/bin/logcat2:system/bin/logcat2 \
-  vendor/htc/k2u/proprietary/bin/logcat:system/bin/logcat \
-  vendor/htc/k2u/proprietary/bin/log:system/bin/log \
-  vendor/htc/k2u/proprietary/bin/ln:system/bin/ln \
-  vendor/htc/k2u/proprietary/bin/linker:system/bin/linker \
-  vendor/htc/k2u/proprietary/bin/l2_profile_exchange:system/bin/l2_profile_exchange \
-  vendor/htc/k2u/proprietary/bin/kill:system/bin/kill \
-  vendor/htc/k2u/proprietary/bin/keystore:system/bin/keystore \
-  vendor/htc/k2u/proprietary/bin/ipv6tether:system/bin/ipv6tether \
-  vendor/htc/k2u/proprietary/bin/ip6tables:system/bin/ip6tables \
-  vendor/htc/k2u/proprietary/bin/ip:system/bin/ip \
-  vendor/htc/k2u/proprietary/bin/ionice:system/bin/ionice \
-  vendor/htc/k2u/proprietary/bin/ioctl:system/bin/ioctl \
-  vendor/htc/k2u/proprietary/bin/installd:system/bin/installd \
-  vendor/htc/k2u/proprietary/bin/insmod:system/bin/insmod \
-  vendor/htc/k2u/proprietary/bin/input:system/bin/input \
-  vendor/htc/k2u/proprietary/bin/ime:system/bin/ime \
-  vendor/htc/k2u/proprietary/bin/iftop:system/bin/iftop \
-  vendor/htc/k2u/proprietary/bin/ifconfig:system/bin/ifconfig \
-  vendor/htc/k2u/proprietary/bin/id:system/bin/id \
-  vendor/htc/k2u/proprietary/bin/settings:system/bin/settings \
-  vendor/htc/k2u/proprietary/bin/htc_ebdlogd:system/bin/htc_ebdlogd \
-  vendor/htc/k2u/proprietary/bin/hostapd_cli:system/bin/hostapd_cli \
-  vendor/htc/k2u/proprietary/bin/hostapd:system/bin/hostapd \
-  vendor/htc/k2u/proprietary/bin/send_bug:system/bin/send_bug \
-  vendor/htc/k2u/proprietary/bin/hd:system/bin/hd \
-  vendor/htc/k2u/proprietary/bin/fmconfig:system/bin/fmconfig \
-  vendor/htc/k2u/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-  vendor/htc/k2u/proprietary/bin/gzip:system/bin/gzip \
-  vendor/htc/k2u/proprietary/bin/getprop:system/bin/getprop \
-  vendor/htc/k2u/proprietary/bin/getevent:system/bin/getevent \
-  vendor/htc/k2u/proprietary/bin/fusermount:system/bin/fusermount \
-  vendor/htc/k2u/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
-  vendor/htc/k2u/proprietary/bin/fsck_msdos:system/bin/fsck_msdos \
-  vendor/htc/k2u/proprietary/bin/flash_camera:system/bin/flash_camera \
-  vendor/htc/k2u/proprietary/bin/e2fsck:system/bin/e2fsck \
-  vendor/htc/k2u/proprietary/bin/dumpsys:system/bin/dumpsys \
-  vendor/htc/k2u/proprietary/bin/dumpstate:system/bin/dumpstate \
-  vendor/htc/k2u/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
-  vendor/htc/k2u/proprietary/bin/drmserver:system/bin/drmserver \
-  vendor/htc/k2u/proprietary/bin/dnsmasq:system/bin/dnsmasq \
-  vendor/htc/k2u/proprietary/bin/dmesg:system/bin/dmesg \
-  vendor/htc/k2u/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
-  vendor/htc/k2u/proprietary/bin/dhcpcd:system/bin/dhcpcd \
-  vendor/htc/k2u/proprietary/bin/df:system/bin/df \
-  vendor/htc/k2u/proprietary/bin/dexopt:system/bin/dexopt \
-  vendor/htc/k2u/proprietary/bin/debuggerd:system/bin/debuggerd \
-  vendor/htc/k2u/proprietary/bin/dd:system/bin/dd \
-  vendor/htc/k2u/proprietary/bin/dbus-daemon:system/bin/dbus-daemon \
-  vendor/htc/k2u/proprietary/bin/date:system/bin/date \
-  vendor/htc/k2u/proprietary/bin/dalvikvm:system/bin/dalvikvm \
   vendor/htc/k2u/proprietary/bin/dalvik_coredump.sh:system/bin/dalvik_coredump.sh \
-  vendor/htc/k2u/proprietary/bin/content:system/bin/content \
-  vendor/htc/k2u/proprietary/bin/cmp:system/bin/cmp \
-  vendor/htc/k2u/proprietary/bin/chown:system/bin/chown \
-  vendor/htc/k2u/proprietary/bin/chmod:system/bin/chmod \
-  vendor/htc/k2u/proprietary/bin/charging:system/bin/charging \
-  vendor/htc/k2u/proprietary/bin/cat:system/bin/cat \
-  vendor/htc/k2u/proprietary/bin/cand:system/bin/cand \
-  vendor/htc/k2u/proprietary/bin/clockd:system/bin/clockd \
-  vendor/htc/k2u/proprietary/bin/bugreport:system/bin/bugreport \
-  vendor/htc/k2u/proprietary/bin/bu:system/bin/bu \
-  vendor/htc/k2u/proprietary/bin/btnvtool:system/bin/btnvtool \
-  vendor/htc/k2u/proprietary/bin/btld:system/bin/btld \
-  vendor/htc/k2u/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
-  vendor/htc/k2u/proprietary/bin/brcmapd:system/bin/brcmapd \
-  vendor/htc/k2u/proprietary/bin/bootanimation:system/bin/bootanimation \
-  vendor/htc/k2u/proprietary/bin/bmgr:system/bin/bmgr \
-  vendor/htc/k2u/proprietary/bin/bma150_usr:system/bin/bma150_usr \
-  vendor/htc/k2u/proprietary/bin/bluetoothd:system/bin/bluetoothd \
-  vendor/htc/k2u/proprietary/bin/awb_camera:system/bin/awb_camera \
-  vendor/htc/k2u/proprietary/bin/atrace:system/bin/atrace \
-  vendor/htc/k2u/proprietary/bin/asound:system/bin/asound \
-  vendor/htc/k2u/proprietary/bin/arec:system/bin/arec \
-  vendor/htc/k2u/proprietary/bin/applypatch:system/bin/applypatch \
-  vendor/htc/k2u/proprietary/bin/app_process:system/bin/app_process \
-  vendor/htc/k2u/proprietary/bin/aplay:system/bin/aplay \
-  vendor/htc/k2u/proprietary/bin/amix:system/bin/amix \
-  vendor/htc/k2u/proprietary/bin/am:system/bin/am \
-  vendor/htc/k2u/proprietary/bin/akmd:system/bin/akmd \
-  vendor/htc/k2u/proprietary/bin/adb:system/bin/adb \
-  vendor/htc/k2u/proprietary/bin/adaptive:system/bin/adaptive \
-  vendor/htc/k2u/proprietary/bin/snd:system/bin/snd \
-  vendor/htc/k2u/proprietary/bin/bugmailer.sh:system/bin/bugmailer.sh \
-  vendor/htc/k2u/proprietary/bin/abcc:system/bin/abcc \
-  vendor/htc/k2u/proprietary/bin/DxDrmServerIpc:system/bin/DxDrmServerIpc \
-  vendor/htc/k2u/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
   vendor/htc/k2u/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/k2u/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/k2u/proprietary/lib/bluez-plugin/network.so:system/lib/bluez-plugin/network.so \
   vendor/htc/k2u/proprietary/lib/bluez-plugin/input.so:system/lib/bluez-plugin/input.so \
   vendor/htc/k2u/proprietary/lib/bluez-plugin/bluetooth-health.so:system/lib/bluez-plugin/bluetooth-health.so \
   vendor/htc/k2u/proprietary/lib/bluez-plugin/audio.so:system/lib/bluez-plugin/audio.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_ar0260_default_video.so:system/lib/libchromatix_ar0260_default_video.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_ar0260_hdr.so:system/lib/libchromatix_ar0260_hdr.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_ar0260_preview.so:system/lib/libchromatix_ar0260_preview.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_ar0260_zsl.so:system/lib/libchromatix_ar0260_zsl.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_imx074_video_hd.so:system/lib/libchromatix_imx074_video_hd.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_imx074_zsl.so:system/lib/libchromatix_imx074_zsl.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_imx091_default_video.so:system/lib/libchromatix_imx091_default_video.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_imx091_preview.so:system/lib/libchromatix_imx091_preview.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_imx091_video_hd.so:system/lib/libchromatix_imx091_video_hd.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_imx091_zsl.so:system/lib/libchromatix_imx091_zsl.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_imx135_default_video.so:system/lib/libchromatix_imx135_default_video.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_imx135_hdr.so:system/lib/libchromatix_imx135_hdr.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_imx135_hfr.so:system/lib/libchromatix_imx135_hfr.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_imx135_preview.so:system/lib/libchromatix_imx135_preview.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_imx135_zsl.so:system/lib/libchromatix_imx135_zsl.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_imx175_default_video.so:system/lib/libchromatix_imx175_default_video.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_imx175_hdr.so:system/lib/libchromatix_imx175_hdr.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_imx175_hfr_60fps.so:system/lib/libchromatix_imx175_hfr_60fps.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_imx175_hfr.so:system/lib/libchromatix_imx175_hfr.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_imx175_preview.so:system/lib/libchromatix_imx175_preview.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_imx175_zsl.so:system/lib/libchromatix_imx175_zsl.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_ov2720_default_video.so:system/lib/libchromatix_ov2720_default_video.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_ov2720_preview.so:system/lib/libchromatix_ov2720_preview.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_ov2722_default_video.so:system/lib/libchromatix_ov2722_default_video.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_ov2722_preview.so:system/lib/libchromatix_ov2722_preview.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_ov2722_zsl.so:system/lib/libchromatix_ov2722_zsl.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_ov5647_preview.so:system/lib/libchromatix_ov5647_preview.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_ov5693_default_video.so:system/lib/libchromatix_ov5693_default_video.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_ov5693_hdr.so:system/lib/libchromatix_ov5693_hdr.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_ov5693_hfr.so:system/lib/libchromatix_ov5693_hfr.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_ov5693_preview.so:system/lib/libchromatix_ov5693_preview.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_ov5693_zsl.so:system/lib/libchromatix_ov5693_zsl.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_ov8838_default_video.so:system/lib/libchromatix_ov8838_default_video.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_ov8838_hdr.so:system/lib/libchromatix_ov8838_hdr.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_ov8838_hfr.so:system/lib/libchromatix_ov8838_hfr.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_ov8838_preview.so:system/lib/libchromatix_ov8838_preview.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_ov8838_zsl.so:system/lib/libchromatix_ov8838_zsl.so \
   vendor/htc/k2u/proprietary/lib/libchromatix_s5k3h2yx_default_video.so:system/lib/libchromatix_s5k3h2yx_default_video.so \
   vendor/htc/k2u/proprietary/lib/libchromatix_s5k3h2yx_hdr.so:system/lib/libchromatix_s5k3h2yx_hdr.so \
   vendor/htc/k2u/proprietary/lib/libchromatix_s5k3h2yx_hfr.so:system/lib/libchromatix_s5k3h2yx_hfr.so \
   vendor/htc/k2u/proprietary/lib/libchromatix_s5k3h2yx_preview.so:system/lib/libchromatix_s5k3h2yx_preview.so \
   vendor/htc/k2u/proprietary/lib/libchromatix_s5k3h2yx_zsl.so:system/lib/libchromatix_s5k3h2yx_zsl.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_s5k3l1yx_default_video.so:system/lib/libchromatix_s5k3l1yx_default_video.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_s5k3l1yx_hfr_120fps.so:system/lib/libchromatix_s5k3l1yx_hfr_120fps.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_s5k3l1yx_hfr_60fps.so:system/lib/libchromatix_s5k3l1yx_hfr_60fps.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_s5k3l1yx_hfr_90fps.so:system/lib/libchromatix_s5k3l1yx_hfr_90fps.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_s5k3l1yx_preview.so:system/lib/libchromatix_s5k3l1yx_preview.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_s5k3l1yx_video_hd.so:system/lib/libchromatix_s5k3l1yx_video_hd.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_s5k3l1yx_zsl.so:system/lib/libchromatix_s5k3l1yx_zsl.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_s5k6a1gx_default_video.so:system/lib/libchromatix_s5k6a1gx_default_video.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_s5k6a1gx_hdr.so:system/lib/libchromatix_s5k6a1gx_hdr.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_s5k6a1gx_hfr.so:system/lib/libchromatix_s5k6a1gx_hfr.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_s5k6a1gx_preview.so:system/lib/libchromatix_s5k6a1gx_preview.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_s5k6a1gx_zsl.so:system/lib/libchromatix_s5k6a1gx_zsl.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_s5k6a2ya_default_video.so:system/lib/libchromatix_s5k6a2ya_default_video.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_s5k6a2ya_hdr.so:system/lib/libchromatix_s5k6a2ya_hdr.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_s5k6a2ya_hfr.so:system/lib/libchromatix_s5k6a2ya_hfr.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_s5k6a2ya_preview.so:system/lib/libchromatix_s5k6a2ya_preview.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_s5k6a2ya_zsl.so:system/lib/libchromatix_s5k6a2ya_zsl.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_vd6869_default_video.so:system/lib/libchromatix_vd6869_default_video.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_vd6869_hdr.so:system/lib/libchromatix_vd6869_hdr.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_vd6869_hfr.so:system/lib/libchromatix_vd6869_hfr.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_vd6869_preview.so:system/lib/libchromatix_vd6869_preview.so \
+  vendor/htc/k2u/proprietary/lib/libchromatix_vd6869_zsl.so:system/lib/libchromatix_vd6869_zsl.so \
   vendor/htc/k2u/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/k2u/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/k2u/proprietary/lib/libcam_oem_plugin.so:system/lib/libcam_oem_plugin.so \
@@ -236,38 +104,22 @@ PRODUCT_COPY_FILES += \
   vendor/htc/k2u/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
   vendor/htc/k2u/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
   vendor/htc/k2u/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
+  vendor/htc/k2u/proprietary/lib/libGLES_direct.so:system/lib/libGLES_direct.so \
   vendor/htc/k2u/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
   vendor/htc/k2u/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
   vendor/htc/k2u/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
   vendor/htc/k2u/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-  vendor/htc/k2u/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
   vendor/htc/k2u/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
   vendor/htc/k2u/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-  vendor/htc/k2u/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
+  vendor/htc/k2u/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
   vendor/htc/k2u/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
   vendor/htc/k2u/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
   vendor/htc/k2u/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/k2u/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/k2u/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
   vendor/htc/k2u/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
-  vendor/htc/k2u/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
-  vendor/htc/k2u/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
-  vendor/htc/k2u/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
-  vendor/htc/k2u/proprietary/lib/hw/nfc.k2_u.so:system/lib/hw/nfc.k2_u.so \
-  vendor/htc/k2u/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
-  vendor/htc/k2u/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
-  vendor/htc/k2u/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
-  vendor/htc/k2u/proprietary/lib/hw/hwcomposer.msm8960.so:system/lib/hw/hwcomposer.msm8960.so \
-  vendor/htc/k2u/proprietary/lib/hw/gralloc.msm8960.so:system/lib/hw/gralloc.msm8960.so \
-  vendor/htc/k2u/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
-  vendor/htc/k2u/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-  vendor/htc/k2u/proprietary/lib/hw/copybit.msm8960.so:system/lib/hw/copybit.msm8960.so \
-  vendor/htc/k2u/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
-  vendor/htc/k2u/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
-  vendor/htc/k2u/proprietary/lib/hw/audio.primary.msm8960.so:system/lib/hw/audio.primary.msm8960.so \
-  vendor/htc/k2u/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
-  vendor/htc/k2u/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
-  vendor/htc/k2u/proprietary/lib/hw/alsa.msm8960.so:system/lib/hw/alsa.msm8960.so \
+  vendor/htc/k2u/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
+  vendor/htc/k2u/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
   vendor/htc/k2u/proprietary/lib/libgps.so:system/lib/libgps.so \
   vendor/htc/k2u/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
   vendor/htc/k2u/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
@@ -293,6 +145,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/k2u/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
   vendor/htc/k2u/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
   vendor/htc/k2u/proprietary/etc/firmware/BCM4334B0_002.001.013.0942.0949.hcd:system/etc/firmware/BCM4334B0_002.001.013.0942.0949.hcd \
+  vendor/htc/k2u/proprietary/etc/hldm.bin:system/etc/hldm.bin \
+  vendor/htc/k2u/proprietary/etc/hltof.bin:system/etc/hltof.bin \
+  vendor/htc/k2u/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
   vendor/htc/k2u/proprietary/vendor/firmware/mfg.bin:system/vendor/firmware/mfg.bin \
   vendor/htc/k2u/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
   vendor/htc/k2u/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
@@ -323,30 +178,28 @@ PRODUCT_COPY_FILES += \
   vendor/htc/k2u/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
   vendor/htc/k2u/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
   vendor/htc/k2u/proprietary/lib/drm/libhtcomaplugin.so:system/lib/drm/libhtcomaplugin.so \
-  vendor/htc/k2u/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko \
-  vendor/htc/k2u/proprietary/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
-  vendor/htc/k2u/proprietary/lib/modules/reset_modem.ko:system/lib/modules/reset_modem.ko \
-  vendor/htc/k2u/proprietary/lib/modules/qcrypto.ko:system/lib/modules/qcrypto.ko \
-  vendor/htc/k2u/proprietary/lib/modules/qcedev.ko:system/lib/modules/qcedev.ko \
-  vendor/htc/k2u/proprietary/lib/modules/qce40.ko:system/lib/modules/qce40.ko \
-  vendor/htc/k2u/proprietary/lib/modules/msm-buspm-dev.ko:system/lib/modules/msm-buspm-dev.ko \
-  vendor/htc/k2u/proprietary/lib/modules/lcd.ko:system/lib/modules/lcd.ko \
-  vendor/htc/k2u/proprietary/lib/modules/ks8851.ko:system/lib/modules/ks8851.ko \
-  vendor/htc/k2u/proprietary/lib/modules/gspca_main.ko:system/lib/modules/gspca_main.ko \
-  vendor/htc/k2u/proprietary/lib/modules/evbug.ko:system/lib/modules/evbug.ko \
-  vendor/htc/k2u/proprietary/lib/modules/eeprom_93cx6.ko:system/lib/modules/eeprom_93cx6.ko \
-  vendor/htc/k2u/proprietary/lib/modules/dma_test.ko:system/lib/modules/dma_test.ko \
-  vendor/htc/k2u/proprietary/lib/modules/bluetooth-power.ko:system/lib/modules/bluetooth-power.ko \
-  vendor/htc/k2u/proprietary/lib/modules/bcmdhd.ko:system/lib/modules/bcmdhd.ko \
-  vendor/htc/k2u/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
-  vendor/htc/k2u/proprietary/lib/plugins/com.adobe.flashplayer/libysshared.so:system/lib/plugins/com.adobe.flashplayer/libysshared.so \
-  vendor/htc/k2u/proprietary/lib/plugins/com.adobe.flashplayer/libstagefright_honeycomb.so:system/lib/plugins/com.adobe.flashplayer/libstagefright_honeycomb.so \
-  vendor/htc/k2u/proprietary/lib/plugins/com.adobe.flashplayer/libstagefright_froyo.so:system/lib/plugins/com.adobe.flashplayer/libstagefright_froyo.so \
-  vendor/htc/k2u/proprietary/lib/plugins/com.adobe.flashplayer/libflashplayer.so:system/lib/plugins/com.adobe.flashplayer/libflashplayer.so \
-  vendor/htc/k2u/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
-  vendor/htc/k2u/proprietary/lib/soundfx/libsrsfx.so:system/lib/soundfx/libsrsfx.so \
-  vendor/htc/k2u/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
-  vendor/htc/k2u/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
-  vendor/htc/k2u/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
-  vendor/htc/k2u/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
-  vendor/htc/k2u/proprietary/lib/ssl/engines/libkeystore.so:system/lib/ssl/engines/libkeystore.so
+  vendor/htc/k2u/proprietary/lib/soundfx/libsrsfx.so:system/lib/soundfx/libsrsfx.so
+
+#flashplayer
+#  vendor/htc/k2u/proprietary/lib/plugins/com.adobe.flashplayer/libysshared.so:system/lib/plugins/com.adobe.flashplayer/libysshared.so \
+#  vendor/htc/k2u/proprietary/lib/plugins/com.adobe.flashplayer/libstagefright_honeycomb.so:system/lib/plugins/com.adobe.flashplayer/libstagefright_honeycomb.so \
+#  vendor/htc/k2u/proprietary/lib/plugins/com.adobe.flashplayer/libstagefright_froyo.so:system/lib/plugins/com.adobe.flashplayer/libstagefright_froyo.so \
+#  vendor/htc/k2u/proprietary/lib/plugins/com.adobe.flashplayer/libflashplayer.so:system/lib/plugins/com.adobe.flashplayer/libflashplayer.so \
+
+#kernel module
+#  vendor/htc/k2u/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko \
+#  vendor/htc/k2u/proprietary/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
+#  vendor/htc/k2u/proprietary/lib/modules/reset_modem.ko:system/lib/modules/reset_modem.ko \
+#  vendor/htc/k2u/proprietary/lib/modules/qcrypto.ko:system/lib/modules/qcrypto.ko \
+#  vendor/htc/k2u/proprietary/lib/modules/qcedev.ko:system/lib/modules/qcedev.ko \
+#  vendor/htc/k2u/proprietary/lib/modules/qce40.ko:system/lib/modules/qce40.ko \
+#  vendor/htc/k2u/proprietary/lib/modules/msm-buspm-dev.ko:system/lib/modules/msm-buspm-dev.ko \
+#  vendor/htc/k2u/proprietary/lib/modules/lcd.ko:system/lib/modules/lcd.ko \
+#  vendor/htc/k2u/proprietary/lib/modules/ks8851.ko:system/lib/modules/ks8851.ko \
+#  vendor/htc/k2u/proprietary/lib/modules/gspca_main.ko:system/lib/modules/gspca_main.ko \
+#  vendor/htc/k2u/proprietary/lib/modules/evbug.ko:system/lib/modules/evbug.ko \
+#  vendor/htc/k2u/proprietary/lib/modules/eeprom_93cx6.ko:system/lib/modules/eeprom_93cx6.ko \
+#  vendor/htc/k2u/proprietary/lib/modules/dma_test.ko:system/lib/modules/dma_test.ko \
+#  vendor/htc/k2u/proprietary/lib/modules/bluetooth-power.ko:system/lib/modules/bluetooth-power.ko \
+#  vendor/htc/k2u/proprietary/lib/modules/bcmdhd.ko:system/lib/modules/bcmdhd.ko \
+#  vendor/htc/k2u/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
